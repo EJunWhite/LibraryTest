@@ -1,0 +1,11 @@
+<resources>
+    <style name="App.Material3.MaterialAlertDialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="shapeAppearanceOverlay">@style/DialogCorners</item>
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+    <style name="DialogCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+    </style>
+</resources>
